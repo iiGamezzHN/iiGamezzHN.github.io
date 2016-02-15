@@ -1,0 +1,244 @@
+body {
+	background-color: #f2f9ff;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	text-align: center;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #9dcbee;
+}
+
+
+
+/* Header dingen */
+#header {
+	height: 200px;
+	background-color: #054b81;
+	width: 100%;
+}
+
+.headerText {
+	font-size: 50px;
+	color: #9dcbee;
+	width: 235px;
+	border: 5px solid #9dcbee;
+	border-radius: 10px;
+	padding-bottom: 5px;
+}
+
+#headerProjecten {
+	width: 43.5%;
+	margin-top: 65px;
+	color: #9dcbee;
+	float: left;
+}
+
+#headerProjecten p {
+	margin: auto;
+}
+
+#headerLogo {
+	float: left;
+	width: 13%;
+}
+
+#headerOverMij {
+	width: 43%;
+	margin-top: 65px;
+	float: right;
+}
+
+#headerLogo img {
+	margin-top: 20px;
+	border: 5px solid #9dcbee;
+	border-radius: 50%;
+}
+
+#headerOverMij p {
+	margin: auto;
+}
+
+
+
+
+/*portfolio*/
+#headings {
+	font-size: 30px;
+}
+
+#line {
+	height: 2px;
+	background-color: black;
+}
+
+.recent {
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+
+
+
+/*previews*/
+#video {
+	float: left;
+	width: 33.4%;
+}
+
+#video img {
+	width: 250px;
+	height: 250px;
+	border: 3px solid black;
+	border-radius: 50%;
+}
+
+#pencil {
+	float: left;
+	width: 33.3%;
+}
+
+#pencil img {
+	width: 250px;
+	height: 250px;
+	border: 3px solid black;
+	border-radius: 50%;
+}
+
+#photoshop {
+	float: left;
+	width: 33.3%;
+}
+
+#photoshop img {
+	width: 250px;
+	height: 250px;
+	border: 3px solid black;
+	border-radius: 50%;
+}
+
+
+
+/*beschrijving*/
+.beschrijving {
+	width: 250px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 25px;
+	visibility: hidden;
+}
+
+.beschrijving p {
+	font-size: 20px;
+	font-weight: normal;
+	margin: 5px 1px 5px 1px;
+}
+
+#video a:hover + .beschrijving {
+	visibility: visible;
+}
+
+#pencil a:hover + .beschrijving {
+	visibility: visible;
+}
+
+#photoshop a:hover + .beschrijving {
+	visibility: visible;
+}
+
+
+
+
+/*Projecten pagina*/
+.project_container {
+	height: 200px;
+}
+
+.project_container a {
+	text-decoration: none;
+	color: black;
+}
+
+.title {
+	font-size: 25px;
+	text-align: left;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+.project_img {
+	text-align: left;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.project_img img {
+	width: 150px;
+	height 150px;
+	border: 1px solid black;
+	border-radius: 50%;
+	display: block;
+}
+
+.project_text {
+	width: 400px;
+	text-align: left;
+	float: left;
+}
+
+.project_text p {
+	margin-top: 0px;
+	font-weight: normal;
+}
+
+
+
+
+/*Over mij Pagina*/
+#overmij_container {
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#overmij_img {
+	width: 300px;
+	height: 300px;
+	float: left;
+	border: 2px solid black;
+	margin-right: 30px;
+}
+
+#overmij_beschrijving {
+	text-align: left;
+	float: left;
+	font-weight: normal;
+	font-size: 20px;
+	width: 600px;
+}
+
+
+
+/*Video pagina*/
+.videopagina_text {
+	font-weight:normal;
+	font-size:20px;
+	width:40%;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom: 60px;
+}
+
+
+
+/*Pencil pagina*/
+.pencilpagina_titel {
+	font-weight: normal;
+	font-size: 15px;
+	font-style: italic;
+}
