@@ -70,9 +70,11 @@ a {
 	font-size: 30px;
 }
 
-#line {
+.line {
 	height: 2px;
 	background-color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .recent {
