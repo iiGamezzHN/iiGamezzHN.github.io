@@ -232,6 +232,8 @@ a {
 	margin-left: 25px;
 	font-size: 25px;
 	text-decoration: underline;
+	text-align: left;
+	font-weight: normal;
 }
 
 #projecten_verdeling {
