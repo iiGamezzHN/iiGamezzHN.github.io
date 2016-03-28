@@ -236,9 +236,19 @@ a {
 	width: 50%;
 }
 
+#projecten_p_individueel {
+	font-size: 30px
+	text-align: left;
+}
+
 #projecten_groep {
 	float: left;
 	width: 50%;
+}
+
+#projecten_p_groep {
+	font-size: 30px
+	text-align: left;
 }
 
 
