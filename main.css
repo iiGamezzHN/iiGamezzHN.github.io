@@ -78,7 +78,7 @@ a {
 }
 
 .line_projecten {
-	height: 1px;
+	height: 2px;
 	background-color: black;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -176,6 +176,7 @@ a {
 /*Projecten pagina*/
 #projecten_separator {
 	width: 100%;
+	overflow: auto;
 }
 
 #projecten_deliverables {
