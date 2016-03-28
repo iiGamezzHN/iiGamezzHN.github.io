@@ -195,7 +195,7 @@ a {
 }
 
 .title {
-	font-size: 25px;
+	font-size: 20px;
 	text-align: left;
 	margin-left: 25px;
 	margin-bottom: 10px;
@@ -225,6 +225,12 @@ a {
 .project_text p {
 	margin-top: 0px;
 	font-weight: normal;
+	font-size: 15px;
+}
+
+.project_week {
+	margin-left: 25px;
+	font-size: 25px;
 }
 
 #projecten_verdeling {
