@@ -77,6 +77,14 @@ a {
 	margin-bottom: 5px;
 }
 
+.line_projecten {
+	height: 1px;
+	background-color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
 .recent {
 	font-size: 25px;
 	margin-top: 50px;
