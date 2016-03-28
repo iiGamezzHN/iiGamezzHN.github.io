@@ -176,8 +176,7 @@ a {
 	width: 50%;
 }
 
-#headings_deliverables {
-	font-size: 30px;
+#headings_deliverables a {
 	text-decoration: underline;
 }
 
