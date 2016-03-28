@@ -231,6 +231,7 @@ a {
 .project_week {
 	margin-left: 25px;
 	font-size: 25px;
+	text-decoration: underline;
 }
 
 #projecten_verdeling {
