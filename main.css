@@ -80,9 +80,13 @@ a {
 	margin-top: 50px;
 }
 
+#nakijken_titel {
+	font-size: 15px;
+}
+
 .nakijken {
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 10px;
 }
 
 
