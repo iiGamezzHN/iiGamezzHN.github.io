@@ -84,36 +84,36 @@ a {
 
 
 /*previews*/
-#video {
+#video_home {
 	float: left;
 	width: 33.4%;
 }
 
-#video img {
+#video_home img {
 	width: 250px;
 	height: 250px;
 	border: 3px solid black;
 	border-radius: 50%;
 }
 
-#pencil {
+#pencil_home {
 	float: left;
 	width: 33.3%;
 }
 
-#pencil img {
+#pencil_home img {
 	width: 250px;
 	height: 250px;
 	border: 3px solid black;
 	border-radius: 50%;
 }
 
-#photoshop {
+#photoshop_home {
 	float: left;
 	width: 33.3%;
 }
 
-#photoshop img {
+#photoshop_home img {
 	width: 250px;
 	height: 250px;
 	border: 3px solid black;
