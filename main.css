@@ -176,7 +176,7 @@ a {
 	width: 50%;
 }
 
-#link_delivarables {
+#link_delivarables a {
 	text-decoration: underline;
 }
 
