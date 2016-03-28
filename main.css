@@ -90,8 +90,8 @@ a {
 }
 
 #video_home img {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	border: 3px solid black;
 	border-radius: 50%;
 }
@@ -102,20 +102,20 @@ a {
 }
 
 #pencil_home img {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	border: 3px solid black;
 	border-radius: 50%;
 }
 
-#photoshop_home {
+#tinker_home {
 	float: left;
 	width: 33.3%;
 }
 
-#photoshop_home img {
-	width: 250px;
-	height: 250px;
+#tinker_home img {
+	width: 200px;
+	height: 200px;
 	border: 3px solid black;
 	border-radius: 50%;
 }
