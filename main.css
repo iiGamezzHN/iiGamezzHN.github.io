@@ -227,6 +227,20 @@ a {
 	font-weight: normal;
 }
 
+#projecten_verdeling {
+	overflow: auto;
+}
+
+#projecten_individueel {
+	float: left;
+	width: 50%;
+}
+
+#projecten_groep {
+	float: left;
+	width: 50%;
+}
+
 
 
 
