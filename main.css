@@ -95,6 +95,9 @@ a {
 	font-size: 30px;
 }
 
+#home_recent {
+	width: 100%;
+}
 
 
 
@@ -285,6 +288,10 @@ a {
 .project_opvulling {
 	color: #f2f9ff;
 	font-size: 25px;
+}
+
+.projects_div {
+	height: 150px;
 }
 
 
