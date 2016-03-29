@@ -162,6 +162,15 @@ a {
 	visibility: visible;
 }
 
+.project_title {
+	font-size: 20px;
+}
+
+.project_beschrijving {
+	font-size: 15px;
+	font-weight: normal;
+}
+
 
 
 
