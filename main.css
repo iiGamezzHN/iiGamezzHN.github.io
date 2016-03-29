@@ -66,13 +66,15 @@ a {
 
 
 /*portfolio*/
-#headings {
+.headings {
 	font-size: 30px;
 }
 
-#line {
+.line {
 	height: 2px;
 	background-color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .recent {
@@ -80,42 +82,55 @@ a {
 	margin-top: 50px;
 }
 
+#nakijken_titel {
+	font-size: 20px;
+}
+
+.nakijken {
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#home_headings {
+	font-size: 30px;
+}
+
 
 
 
 /*previews*/
-#video {
+#video_home {
 	float: left;
 	width: 33.4%;
 }
 
-#video img {
-	width: 250px;
-	height: 250px;
+#video_home img {
+	width: 200px;
+	height: 200px;
 	border: 3px solid black;
 	border-radius: 50%;
 }
 
-#pencil {
+#pencil_home {
 	float: left;
 	width: 33.3%;
 }
 
-#pencil img {
-	width: 250px;
-	height: 250px;
+#pencil_home img {
+	width: 200px;
+	height: 200px;
 	border: 3px solid black;
 	border-radius: 50%;
 }
 
-#photoshop {
+#tinker_home {
 	float: left;
 	width: 33.3%;
 }
 
-#photoshop img {
-	width: 250px;
-	height: 250px;
+#tinker_home img {
+	width: 200px;
+	height: 200px;
 	border: 3px solid black;
 	border-radius: 50%;
 }
@@ -128,7 +143,8 @@ a {
 	border: 2px solid black;
 	border-radius: 10px;
 	margin: auto;
-	margin-top: 25px;
+	margin-top: 10px;
+	margin-bottom: 25px; 
 	visibility: hidden;
 }
 
@@ -138,22 +154,57 @@ a {
 	margin: 5px 1px 5px 1px;
 }
 
-#video a:hover + .beschrijving {
+#video_home a:hover + .beschrijving {
 	visibility: visible;
 }
 
-#pencil a:hover + .beschrijving {
+#pencil_home a:hover + .beschrijving {
 	visibility: visible;
 }
 
-#photoshop a:hover + .beschrijving {
+#tinker_home a:hover + .beschrijving {
 	visibility: visible;
+}
+
+.project_title {
+	font-size: 20px;
+}
+
+.project_beschrijving {
+	font-size: 15px;
+	font-weight: normal;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 20px;
 }
 
 
 
 
 /*Projecten pagina*/
+#projecten_separator {
+	width: 100%;
+	overflow: auto;
+}
+
+#projecten_deliverables {
+	float: left;
+	width: 50%;
+}
+
+#projecten_separator #projecten_deliverables #link_deliverables {
+	text-decoration: underline;
+}
+
+#projecten_dump {
+	float: left;
+	width: 50%;
+}
+
+#projecten_separator #projecten_dump #link_dump {
+	text-decoration: underline;
+}
+
 .project_container {
 	height: 200px;
 }
@@ -164,7 +215,7 @@ a {
 }
 
 .title {
-	font-size: 25px;
+	font-size: 20px;
 	text-align: left;
 	margin-left: 25px;
 	margin-bottom: 10px;
@@ -179,7 +230,7 @@ a {
 
 .project_img img {
 	width: 150px;
-	height 150px;
+	height: 150px;
 	border: 1px solid black;
 	border-radius: 50%;
 	display: block;
@@ -194,6 +245,46 @@ a {
 .project_text p {
 	margin-top: 0px;
 	font-weight: normal;
+	font-size: 15px;
+}
+
+.project_week {
+	margin-left: 25px;
+	font-size: 25px;
+	text-decoration: underline;
+	text-align: left;
+	font-weight: normal;
+}
+
+#projecten_verdeling {
+	overflow: auto;
+}
+
+#projecten_individueel {
+	float: left;
+	width: 50%;
+}
+
+#projecten_p_individueel {
+	font-size: 30px;
+	text-align: left;
+	margin-left: 25px;
+}
+
+#projecten_groep {
+	float: left;
+	width: 50%;
+}
+
+#projecten_p_groep {
+	font-size: 30px;
+	text-align: left;
+	margin-left: 25px;
+}
+
+.project_opvulling {
+	color: #f2f9ff;
+	font-size: 25px;
 }
 
 
@@ -204,6 +295,7 @@ a {
 	height: 300px;
 	margin-top: 30px;
 	margin-left: 30px;
+	margin-bottom: 30px;
 }
 
 #overmij_img {
@@ -241,4 +333,39 @@ a {
 	font-weight: normal;
 	font-size: 15px;
 	font-style: italic;
+}
+
+
+
+
+
+/*Interactie pagina*/
+.interactie {
+	width: 50%;
+	float: left;
+	font-weight: normal;
+	text-align: left;
+}
+
+.interactie img {
+	width: 100%;
+}
+
+.interactie p {
+	margin: 0px 0px 0px 30px;
+	font-size: 15px;
+}
+
+hr {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#powerpointlink {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.test {
+	display: inline-block;
 }
