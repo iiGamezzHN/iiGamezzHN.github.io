@@ -176,13 +176,17 @@ a {
 	width: 50%;
 }
 
-#projecten_separator #projecten_deliverables a {
+#projecten_separator #projecten_deliverables #link_deliverables {
 	text-decoration: underline;
 }
 
 #projecten_dump {
 	float: left;
 	width: 50%;
+}
+
+#projecten_separator #projecten_dump #link_dump {
+	text-decoration: underline;
 }
 
 .project_container {
